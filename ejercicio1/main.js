@@ -8,7 +8,7 @@ fetch("https://thronesapi.com/api/v2/Characters").then((characters)=>
 
 const selection = document.querySelector("#character-list")
 const img = document.querySelector(".character-image")
-img.src = "https://static-00.iconduck.com/assets.00/profile-circle-icon-256x256-cm91gqm2.png"
+img.src = "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"
 const option = document.createElement("option")
 selection.appendChild(option)
 option.innerHTML = "Selecciona un personaje"
